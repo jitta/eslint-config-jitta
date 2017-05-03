@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-jitta",
+  "version": "0.1.0",
+  "description": "Linter config for JavaScript universal development",
+  "main": "index.js",
+  "author": "Jitta Team",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitta/eslint-config-jitta.git"
+  },
+  "license": "ISC"
+}
