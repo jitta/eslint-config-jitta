@@ -3,7 +3,10 @@
 ## Installation
 
 ```bash
-$ npm install --save-dev babel-eslint eslint eslint-config-airbnb-base eslint-plugin-flowtype eslint-plugin-import eslint-config-jitta
+(
+  export PKG=eslint-config-jitta;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
 ```
 
 ## Usage
