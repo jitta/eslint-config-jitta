@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jitta",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Linter config for JavaScript universal development",
   "main": "index.js",
   "author": "Jitta Team",
