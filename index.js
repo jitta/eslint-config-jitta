@@ -10,6 +10,6 @@ module.exports = {
     "comma-dangle": "off",
     "camelcase": "off",
     "no-param-reassign": ["error", { "props": false }],
-    "no-use-before-define": "off"
+    "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": true }]
   }
 }
