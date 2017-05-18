@@ -5,11 +5,11 @@ module.exports = {
     "flowtype"
   ],
   "rules": {
-    "semi": 0,
-    "no-underscore-dangle": 0,
-    "comma-dangle": 0,
-    "camelcase": 0,
+    "semi": ["warn", "never"],
+    "no-underscore-dangle": "off",
+    "comma-dangle": "off",
+    "camelcase": "off",
     "no-param-reassign": ["error", { "props": false }],
-    "no-use-before-define": 0,
-  },
+    "no-use-before-define": "off"
+  }
 }
