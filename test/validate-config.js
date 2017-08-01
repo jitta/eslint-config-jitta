@@ -44,16 +44,3 @@ testFiles.forEach( filename => {
         t.end()
     })
 })
-
-// test('load config in eslint to validate all rule syntax is correct', function (t) {
-//   var CLIEngine = require('eslint').CLIEngine
-
-//   var cli = new CLIEngine(config)
-
-    
-
-//   var report = cli.executeOnText('var obj = { key1: "value",\n key2: "value",}')
-//   console.log(report.results[0].messages)
-
-//   t.end()
-// })
