@@ -22,7 +22,6 @@
     "tape": "^4.8.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^7.2.3",
     "eslint": "^4.6.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-flowtype": "^2.32.1",
