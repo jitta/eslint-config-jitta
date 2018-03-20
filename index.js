@@ -7,7 +7,7 @@ module.exports = {
   ],
   "env": {
     "jest/globals": true
-  }
+  },
   "rules": {
     "semi": ["warn", "never"],
     "no-underscore-dangle": "off",
